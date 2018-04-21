@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+header {
+
+    
+    color: #333;
+    background: white;
+    overflow: auto;
+    clear: both;
+    margin-bottom: 20px;
+ 
+   
+}
+
+#name {
+    float: left;
+    margin-left: 320px;
+    background: #4aaaa5;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px; 
+    color: white;
+}
+
+#pages {
+    background: #ccc;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-right: 320px;
+}
+
+li {
+    float: right;
+    padding: 20px;
+    border-right: 1px solid #bbb;
+    
+}
+
+
+body {
+    background:url("../images/seigaiha.png");
+}
+
+
+#about-me {
+    color:#4aaaa5;
+
+}
+
+#main-bio {
+    position: absolute;
+    left: 20%;
+    width: 960px;
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+    
+}
+
+#bio-pic {
+    float: left;
+}
+
+
+
