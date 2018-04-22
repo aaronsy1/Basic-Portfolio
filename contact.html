@@ -8,8 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+
+    <link rel ="stylesheet" href = "./assets/css/reset.css" />
 <link rel = "stylesheet" href = "./assets/css/style.css" />
-<link rel ="stylesheet" href = "./assets/css/reset.css" />
+
 
 </head>
 
@@ -19,7 +21,7 @@
     <header>
 
         <div  id = name>
-        <h1> Aaron Sy </h1>
+         Aaron Sy </h1>
         </div>
 
         <section id = "pages">
@@ -27,20 +29,26 @@
              <ul>
                 <li>
                      <a href = "./contact.html" class = "links">
-                               <h3>Contact</h3>
+                               Contact
                     </a>
                 </li>
-                
+                <li class = "border-line">
+                    |
+                </li>
 
                 <li> 
                     <a href = "./portfolio.html" class = "links">
-                        <h3>Portfolio</h3>
+                        Portfolio
                     </a>
+                </li>
+
+                <li class="border-line">
+                    |
                 </li>
 
                 <li> 
                      <a href = "./index.html" class = "links"> 
-                            <h3>About</h3> 
+                            About
                      <a/> 
                 </li>
 
@@ -50,10 +58,35 @@
         
     </header>
 
-   
+    <section id = "main-bio">
+        <h1 id= "about-me"> Contact </h1>
+
+        <hr>
+
+        <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  
+                <label for="email">Email</label>
+                <input type="text" id="email" name="emailaddress" Placeholder="example@gmail.com">
+                 
+              
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+
+     
+    </section>
 
     <footer>
-
+            <h4>copyright</h4>
     </footer>
 
 </body>
